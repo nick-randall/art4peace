@@ -146,7 +146,7 @@ button.language-option{
     margin-left:20%;
     text-align:justify;
     display:inline-block;
-    margin-top: 20vh;
+    margin-top: 30vh;
     opacity:0;
     
     transform: translate(0, 20px); transition: all 2s;
