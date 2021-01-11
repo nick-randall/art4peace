@@ -1,0 +1,158 @@
+
+@font-face {
+    font-family: arabic;
+    src: url(SitiMaesaroh.otf);
+ }
+
+body{
+    margin: 0px;
+   background: black;
+
+ color:rgba(200,200,200);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.header-container{
+    top: 150px;
+    position: absolute;
+    padding-top: 0px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.678);
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    float:left;
+    margin-left: 25px;
+    position: absolute;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 10px;
+    width: 100%;
+}
+
+#navbar-wrapper{
+
+    height: 80px;
+    overflow: clip;
+    margin-left:20%;
+    margin-right:20%;
+    top: 50%;
+    position: relative;
+    transform: translateY(-30%);
+    
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: arabic;
+    font-size: 40px;
+    color:purple;/*
+    margin-left:35px;
+    margin-right:35px;*/
+    
+
+}
+
+.navbar a:hover {
+    color: #f1f1f1;
+}
+
+
+/*.languages{
+    float:right;
+    margin-right: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.languages img{
+    margin: 5px;
+}*/
+
+.languages button{
+    float:right;
+    font-size:20px;
+    margin-right: 5px;
+}
+
+.title-photo{
+    overflow: clip;    
+    width: 100%;
+    margin-bottom:0px;
+}
+
+button.language-option{
+    color:white;
+    background: none;
+    border: none;
+}
+
+.stripe-grey{
+    margin-top:-6px;
+    height: 40px;
+    background-color: grey;
+}
+.stripe-black{
+    margin-top:-6px;
+    height: 80px;
+    background-color: black;
+}
+
+.text{
+    font-family: 'Arimo';
+    margin-top: 0px;
+    color: white;
+    top: 10px;
+    position: relative;
+    font-size: 40px;
+    margin-right:20%;
+    margin-left:20%;
+    text-align:justify;
+    display:inline-block;
+    /*line-height: 1.8;*/
+}
+
+#arrow-down{
+    position: fixed;
+    height: 50px;
+    bottom:60px;
+    right: 60px;
+    opacity: 0.8;
+}
+
+#footer{
+    margin-bottom: 0px;
+}
+
+.footer img{
+    margin:0px;
+}
+
+.bottom-border{
+    margin: 0px;
+}
+
+.bottom-border span{
+    margin: 0px;
+}
+
+.hidden{
+    display: none;
+}
+
+

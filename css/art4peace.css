@@ -1,0 +1,228 @@
+
+@font-face {
+    font-family: arabic;
+    src: url(SitiMaesaroh.otf);
+ }
+
+body{
+    margin: 0px;
+   background: black;
+
+ color:rgba(200,200,200);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.header-container{
+    top: 150px;
+    position: absolute;
+    padding-top: 0px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.678);
+    width: 100%;
+    z-index: 1;
+    transition: background 2s;
+}
+
+.logo{
+    float:left;
+    margin-left: 25px;
+    position: absolute;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 10px;
+    width: 100%;
+}
+
+.opacity-full{
+    background: rgb(177, 177, 177);
+}
+
+#navbar-wrapper{
+
+    height: 80px;
+    overflow: clip;
+    margin-left:20%;
+    margin-right:20%;
+    top: 50%;
+    position: relative;
+    transform: translateY(-30%);
+    
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar a{
+    text-decoration: none;
+    font-family: arabic;
+    font-size: 40px;
+    color:purple;/*
+    margin-left:35px;
+    margin-right:35px;*/
+    
+
+}
+
+#navbar a:hover {
+    color: #f1f1f1;
+}
+#navbar a:visited {
+    color:purple;
+}
+
+
+/*.languages{
+    float:right;
+    margin-right: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.languages img{
+    margin: 5px;
+}*/
+
+.languages button{
+    float:right;
+    font-size:20px;
+    margin-right: 5px;
+}
+
+#title-photo{
+    overflow: clip;    
+    width: 100%;
+    margin-bottom:0px;
+}
+
+#title-photo-container{
+    background-color:grey;
+    
+}
+
+
+button.language-option{
+    color:white;
+    background: none;
+    border: none;
+}
+
+/*.grey-stripe{
+    margin-top:-6px;
+    height: 10px;
+    background-color: grey;
+}*/
+
+.black-stripe{
+    margin-top:-6px;
+    height: 120px;
+    background-color: black;
+    
+}
+
+.black-chunk{
+    margin-top:-6px;
+    height: 620px;
+    background-color: black;
+}
+
+#main-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    color: white;
+    top: 10px;
+    position: relative;
+    font-size: 40px;
+    margin-right:20%;
+    margin-left:20%;
+    text-align:justify;
+    display:inline-block;
+    margin-top: 20vh;
+    opacity:0;
+    
+    transform: translate(0, 20px); transition: all 2s;
+    /*line-height: 1.8;*/
+}
+
+#main-text.visible{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+#arrow-down{
+    position: absolute;
+    height: 50px;
+    bottom:60px;
+    right: 60px;
+    opacity: 0.8;
+}
+
+/*
+
+.bottom-border{
+    margin: 0px;
+}
+
+.bottom-border span{
+    margin: 0px;
+}*/
+
+.hidden{
+    display: none;
+}
+
+#picture-row{
+    margin-right:20%;
+    margin-left:20%;
+    
+    display: inline-block;
+}
+
+.column{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    width: 46%;
+    padding: 2%;
+    text-align: center;
+}
+
+.bottom-slider{
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    background: #ff5f14;
+    transition: left 0.3s ease;
+
+}
+
+.section-wrapper{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  padding: 0 2em;
+}
+
+#footer{
+    position: absolute;
+    bottom: 10px;
+    
+}
+
+.footer img{
+    margin:0px;
+}
