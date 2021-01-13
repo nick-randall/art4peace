@@ -4,7 +4,7 @@
 <head>    
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" href="css/art4peace.css" type="text/css">
+    <link rel="stylesheet" href="static/css/art4peace.css" type="text/css">
 </head>
 <body>
     <section id = "header-container" class = "header-container">
@@ -20,9 +20,9 @@
         </div>
     </section >
     <section id = "title-photo-container">
-    <img id= "title-photo" class = "title-photo" src="banner2.jpg" alt="">
+    <img id= "title-photo" class = "title-photo" src="static/banner2.jpg" alt="">
     <div>
-        <a href="#home"><img id ="arrow-down" src="down-arrow-circle.png" alt=""></a>
+        <a href="#home"><img id ="arrow-down" src="static/down-arrow-circle.png" alt=""></a>
     </div>
     </section>
     
@@ -60,12 +60,12 @@
         <section id ="picture-row">
             
                 <div class = "column">
-                    <img src="ehsan.jpg" alt="" width= "100%">
+                    <img src="static/ehsan.jpg" alt="" width= "100%">
                     Ehsan
                 </div>
                 
                 <div class = "column">
-                    <img src="yadegar.jpg" alt="" width= "100%">
+                    <img src="static/yadegar.jpg" alt="" width= "100%">
                     Yadegar
                 </div>
                 <!--div class = "column">
@@ -76,8 +76,10 @@
 
     </section>
     <section class = "section-wrapper" id = "contact">
-        <form action = "POST ">
-
+        
+        <form method = "POST" action = "">
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <input type="submit">Send!</input>
         </form>
 
      </section>
@@ -97,8 +99,8 @@
             <span><img src="arabic-border-reverse.jpg" alt="border" height="100" width="100"></span><span><img src="arabic-border-reverse.jpg" alt="border" height="100" width="100"></span><span><img src="arabic-border-reverse.jpg" alt="border" height="100" width="100"></span>
         </div>-->
    </footer> 
-   <script src="js/jquery.min.js">
+   <script src="static/js/jquery.min.js">
    </script>
-   <script src ="js/art4peace.js"></script>
+   <script src ="static/js/art4peace.js"></script>
 </body>
 </html>
